@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./header.svg" width="100%" alt="Viswasakthi P - Founder & Systems Engineer" />
+<img src="https://raw.githubusercontent.com/viswasakthi3/viswasakthi3/main/header.svg" width="100%" alt="Viswasakthi P - Founder & Systems Engineer" />
 
 <br/><br/>
 
@@ -19,7 +19,7 @@
 
 <br/><br/>
 
-<img src="./metrics.svg" width="100%" alt="Engineering Velocity & Metrics" />
+<img src="https://raw.githubusercontent.com/viswasakthi3/viswasakthi3/main/metrics.svg" width="100%" alt="Engineering Velocity & Metrics" />
 
 </div>
 
