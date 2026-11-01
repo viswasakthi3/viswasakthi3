@@ -137,31 +137,33 @@
     </td>
   </tr>
 
-  <!-- ROW 4: SPAMFREE & SAVESUGGEST -->
+  <!-- ROW 4: SPAMFREE.AI -->
   <tr>
     <td width="60%" valign="top">
       <h3>
-        <a href="https://github.com/viswasakthi3/save_suggest">04. SaveSuggest &amp; Workspace Engine</a>
-        <img src="https://img.shields.io/badge/Open%20Source-Codebase-22c55e?style=flat-square" />
+        <a href="https://spamfree.ai">04. SpamFree.ai — The Calm Inbox</a>
+        <img src="https://img.shields.io/badge/Stage-Pre--Seed%20Raise-FF5722?style=flat-square" />
       </h3>
-      <p><b>Nuxt 3 full-stack metadata extractor and interactive clinical record ledger.</b></p>
+      <p><b>AI that surfaces only what needs you — and quiets everything else.</b></p>
       <ul>
-        <li><b>Server-Side Metadata Scraper:</b> Nitro API extracting OpenGraph metadata, favicons, and site previews on the fly.</li>
-        <li><b>Interactive Charting Engine:</b> Dynamic dental tooth visualization and chronological appointment logs.</li>
+        <li><b>Contextual Action Chips:</b> Automatically classifies and parses incoming mail streams into actionable verbs (<code>Reply</code>, <code>Pay</code>, <code>Approve</code>, <code>Sign</code>).</li>
+        <li><b>Noise Elimination:</b> Separates machine-generated cold outreach and automated blasts from human communication.</li>
+        <li><b>Privacy-Preserving Local Intelligence:</b> Structured LLM summarization pipeline designed for sub-second latency and data confidentiality.</li>
       </ul>
       <p>
-        <a href="https://github.com/viswasakthi3/save_suggest"><b>Inspect Source Code &rarr;</b></a> &nbsp;•&nbsp;
-        <a href="https://spamfree.ai"><b>SpamFree.ai Overview</b></a>
+        <a href="https://spamfree.ai"><b>🌐 Visit spamfree.ai &rarr;</b></a> &nbsp;•&nbsp; 
+        <a href="mailto:viswasakthi.offl@gmail.com?subject=SpamFree.ai%20Deck%20Request"><b>📄 Request Pre-Seed Deck</b></a>
       </p>
     </td>
     <td width="40%" valign="top">
       <b>Stack:</b>
       <ul>
-        <li><code>Nuxt 3 (SSR + Nitro)</code></li>
-        <li><code>Vue 3</code> · <code>Tailwind CSS</code></li>
-        <li><code>Dockerized Deployment</code></li>
+        <li><code>LLM Context Pipelines</code></li>
+        <li><code>Fast Vector Indexing</code></li>
+        <li><code>TypeScript &amp; Edge APIs</code></li>
+        <li><code>Real-time Parsing</code></li>
       </ul>
-      <p><b>Status:</b> Open Source Full-Stack</p>
+      <p><b>Status:</b> Pre-Seed Raise</p>
     </td>
   </tr>
 </table>
