@@ -1,0 +1,109 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0e131f"/>
+      <stop offset="100%" stop-color="#080a10"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primaryGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="50%" stop-color="#FF8A65"/>
+      <stop offset="100%" stop-color="#FFAB91"/>
+    </linearGradient>
+
+    <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#FF5722" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <!-- Dot Grid Pattern -->
+    <pattern id="dotGrid" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1e293b" fill-opacity="0.6"/>
+    </pattern>
+
+    <!-- Filter for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseDot {
+      0% { opacity: 0.4; }
+      50% { opacity: 1; }
+      100% { opacity: 0.4; }
+    }
+    .pulsing-dot {
+      animation: pulseDot 2s infinite ease-in-out;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect width="900" height="260" rx="16" fill="url(#bgGradient)"/>
+  <rect width="900" height="260" rx="16" fill="url(#dotGrid)"/>
+  <rect width="900" height="260" rx="16" stroke="url(#borderGrad)" stroke-width="1.5"/>
+
+  <!-- Radial Glow Accents -->
+  <circle cx="820" cy="50" r="140" fill="#FF5722" fill-opacity="0.08" filter="url(#glow)"/>
+  <circle cx="80" cy="210" r="120" fill="#38bdf8" fill-opacity="0.06" filter="url(#glow)"/>
+
+  <!-- Top Window Bar -->
+  <circle cx="36" cy="34" r="5" fill="#EF4444"/>
+  <circle cx="52" cy="34" r="5" fill="#F59E0B"/>
+  <circle cx="68" cy="34" r="5" fill="#10B981"/>
+
+  <!-- Live Status Badge -->
+  <g transform="translate(680, 22)">
+    <rect width="185" height="28" rx="14" fill="#030712" stroke="#22c55e" stroke-opacity="0.4" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#22c55e" class="pulsing-dot"/>
+    <text x="28" y="18" fill="#4ade80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="600" letter-spacing="0.5">SHIPPING IN PRODUCTION</text>
+  </g>
+
+  <!-- Main Identity Content -->
+  <g transform="translate(48, 86)">
+    <!-- Subtitle / Eyebrow -->
+    <text x="0" y="0" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" letter-spacing="2">FOUNDER &amp; SYSTEMS ARCHITECT</text>
+    
+    <!-- Hero Name -->
+    <text x="0" y="42" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5">Viswasakthi P</text>
+    
+    <!-- Accent Line -->
+    <text x="300" y="42" fill="url(#primaryGlow)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="38" font-weight="800">.</text>
+
+    <!-- Punchline / Mission Statement -->
+    <text x="0" y="76" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400">
+      Building <tspan fill="#FF8A65" font-weight="600">Files Go</tspan> &amp; <tspan fill="#38BDF8" font-weight="600">SpamFree.ai</tspan> — High-performance desktop engines &amp; AI-native systems.
+    </text>
+
+    <!-- Bottom Pill Badges -->
+    <g transform="translate(0, 104)">
+      <!-- Badge 1: Performance -->
+      <g transform="translate(0, 0)">
+        <rect width="175" height="28" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1"/>
+        <text x="12" y="18" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">⚡ 20M+ Files in 0.02s</text>
+      </g>
+
+      <!-- Badge 2: Store -->
+      <g transform="translate(185, 0)">
+        <rect width="165" height="28" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1"/>
+        <text x="12" y="18" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">📦 Microsoft Store App</text>
+      </g>
+
+      <!-- Badge 3: Philosophy -->
+      <g transform="translate(360, 0)">
+        <rect width="180" height="28" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1"/>
+        <text x="12" y="18" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">🛠️ Sub-50ms or It's a Bug</text>
+      </g>
+    </g>
+  </g>
+</svg>

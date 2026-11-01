@@ -1,0 +1,60 @@
+<svg width="900" height="130" viewBox="0 0 900 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131f"/>
+      <stop offset="100%" stop-color="#0a0d14"/>
+    </linearGradient>
+    <linearGradient id="glowOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#FF8A65"/>
+    </linearGradient>
+    <linearGradient id="glowCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="glowGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="glowPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect width="900" height="130" rx="12" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Divider Lines -->
+  <line x1="225" y1="20" x2="225" y2="110" stroke="#1e293b" stroke-width="1"/>
+  <line x1="450" y1="20" x2="450" y2="110" stroke="#1e293b" stroke-width="1"/>
+  <line x1="675" y1="20" x2="675" y2="110" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Metric 1: Latency -->
+  <g transform="translate(30, 32)">
+    <text x="0" y="32" fill="url(#glowOrange)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">0.02s</text>
+    <text x="0" y="58" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Instant Search</text>
+    <text x="0" y="74" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">20M+ local files indexed</text>
+  </g>
+
+  <!-- Metric 2: Store Shipped -->
+  <g transform="translate(255, 32)">
+    <text x="0" y="32" fill="url(#glowCyan)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">Shipped</text>
+    <text x="0" y="58" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Microsoft Store</text>
+    <text x="0" y="74" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Production Windows binary</text>
+  </g>
+
+  <!-- Metric 3: Rigor / Tests -->
+  <g transform="translate(480, 32)">
+    <text x="0" y="32" fill="url(#glowGreen)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">100+</text>
+    <text x="0" y="58" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Adversarial Tests</text>
+    <text x="0" y="74" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Perf, crawl &amp; SSR suites</text>
+  </g>
+
+  <!-- Metric 4: AI & Pre-seed -->
+  <g transform="translate(705, 32)">
+    <text x="0" y="32" fill="url(#glowPurple)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800">Pre-Seed</text>
+    <text x="0" y="58" fill="#f1f5f9" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">SpamFree.ai</text>
+    <text x="0" y="74" fill="#64748b" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">AI-native calm inbox</text>
+  </g>
+</svg>
