@@ -4,8 +4,11 @@
 
 <br/><br/>
 
-<a href="https://filesgo.org">
-  <img src="https://img.shields.io/badge/Files%20Go-filesgo.org-FF5722?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Files Go" />
+<a href="https://github.com/viswasakthi3/files-go">
+  <img src="https://img.shields.io/badge/Files%20Go-Showcase%20Repo-FF5722?style=for-the-badge&logo=github&logoColor=white" alt="Files Go Repo" />
+</a>
+<a href="https://filesgo.org/download">
+  <img src="https://img.shields.io/badge/Download%20Page-filesgo.org%2Fdownload-0078D7?style=for-the-badge&logo=windows11&logoColor=white" alt="Download Page" />
 </a>
 <a href="https://apps.microsoft.com/detail/9PMPT8423QSC">
   <img src="https://img.shields.io/badge/Microsoft%20Store-Live%20App-0078D7?style=for-the-badge&logo=windows11&logoColor=white" alt="Microsoft Store" />
@@ -89,8 +92,9 @@
         <li><b>Full Utility Suite:</b> 4K media streamer, document inspector, and phone-as-trackpad remote control.</li>
       </ul>
       <p>
-        <a href="https://filesgo.org"><b>Website</b></a> &nbsp;•&nbsp; 
-        <a href="https://apps.microsoft.com/detail/9PMPT8423QSC"><b>Microsoft Store Listing</b></a>
+        <a href="https://github.com/viswasakthi3/files-go"><b>Inspect GitHub Showcase &rarr;</b></a> &nbsp;•&nbsp; 
+        <a href="https://filesgo.org/download"><b>Download Page</b></a> &nbsp;•&nbsp; 
+        <a href="https://apps.microsoft.com/detail/9PMPT8423QSC"><b>Microsoft Store</b></a>
       </p>
     </td>
     <td width="40%" valign="top">
