@@ -47,41 +47,11 @@
 ### 🚀 Public Repositories & Shipped Software
 
 <table>
-  <!-- ROW 1: QUICK SEARCH AI -->
+  <!-- ROW 1: FILES GO -->
   <tr>
     <td width="60%" valign="top">
       <h3>
-        <a href="https://github.com/viswasakthi3/quick-search">01. Quick Search AI</a>
-        <img src="https://img.shields.io/badge/Product%20Showcase-Desktop%20AI-10B981?style=flat-square" />
-      </h3>
-      <p><b>Global OS-wide voice AI assistant with sub-second answers and hardware-bound identity.</b></p>
-      <ul>
-        <li><b>Global Hotkey Daemon:</b> Hold <code>Tab + Q</code> anywhere in Windows, speak aloud, release to trigger instant corner overlay.</li>
-        <li><b>Hardware Fingerprint Security:</b> Machine GUID, motherboard, and disk hashing with signed tokens to prevent abuse without requiring accounts.</li>
-        <li><b>Hybrid Speech Pipeline:</b> Real-time streaming voice transcription using Sarvam AI with automatic Deepgram fallback.</li>
-        <li><b>23 Automated E2E Checks:</b> Comprehensive Electron assertion suites covering shortcuts, offline recovery, and MSIX packaging.</li>
-      </ul>
-      <p>
-        <a href="https://github.com/viswasakthi3/quick-search"><b>Inspect GitHub Showcase &rarr;</b></a>
-      </p>
-    </td>
-    <td width="40%" valign="top">
-      <b>Stack:</b>
-      <ul>
-        <li><code>Electron</code> · <code>Win32 APIs</code></li>
-        <li><code>Sarvam &amp; Deepgram</code></li>
-        <li><code>MSIX Packaging</code></li>
-        <li><code>Automated E2E Testing</code></li>
-      </ul>
-      <p><b>Status:</b> Live Production Binary</p>
-    </td>
-  </tr>
-
-  <!-- ROW 2: FILES GO -->
-  <tr>
-    <td width="60%" valign="top">
-      <h3>
-        <a href="https://filesgo.org">02. Files Go — Windows File Manager &amp; Intelligence Suite</a>
+        <a href="https://filesgo.org">01. Files Go — Windows File Manager &amp; Intelligence Suite</a>
         <img src="https://img.shields.io/badge/Microsoft%20Store-Live-0078D7?style=flat-square" />
       </h3>
       <p><b>High-performance Explorer alternative handling 20M+ files with zero latency.</b></p>
@@ -104,6 +74,36 @@
         <li><code>Native Windows Hooks</code></li>
         <li><code>Python Telemetry</code></li>
         <li><code>Tailwind CSS v4</code></li>
+      </ul>
+      <p><b>Status:</b> Live Production Binary</p>
+    </td>
+  </tr>
+
+  <!-- ROW 2: QUICK SEARCH AI -->
+  <tr>
+    <td width="60%" valign="top">
+      <h3>
+        <a href="https://github.com/viswasakthi3/quick-search">02. Quick Search AI</a>
+        <img src="https://img.shields.io/badge/Product%20Showcase-Desktop%20AI-10B981?style=flat-square" />
+      </h3>
+      <p><b>Global OS-wide voice AI assistant with sub-second answers and hardware-bound identity.</b></p>
+      <ul>
+        <li><b>Global Hotkey Daemon:</b> Hold <code>Tab + Q</code> anywhere in Windows, speak aloud, release to trigger instant corner overlay.</li>
+        <li><b>Hardware Fingerprint Security:</b> Machine GUID, motherboard, and disk hashing with signed tokens to prevent abuse without requiring accounts.</li>
+        <li><b>Hybrid Speech Pipeline:</b> Real-time streaming voice transcription using Sarvam AI with automatic Deepgram fallback.</li>
+        <li><b>23 Automated E2E Checks:</b> Comprehensive Electron assertion suites covering shortcuts, offline recovery, and MSIX packaging.</li>
+      </ul>
+      <p>
+        <a href="https://github.com/viswasakthi3/quick-search"><b>Inspect GitHub Showcase &rarr;</b></a>
+      </p>
+    </td>
+    <td width="40%" valign="top">
+      <b>Stack:</b>
+      <ul>
+        <li><code>Electron</code> · <code>Win32 APIs</code></li>
+        <li><code>Sarvam &amp; Deepgram</code></li>
+        <li><code>MSIX Packaging</code></li>
+        <li><code>Automated E2E Testing</code></li>
       </ul>
       <p><b>Status:</b> Live Production Binary</p>
     </td>
