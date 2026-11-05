@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Microsoft%20Store-Live%20App-0078D7?style=for-the-badge&logo=windows11&logoColor=white" alt="Microsoft Store" />
 </a>
 <a href="https://github.com/viswasakthi3/quick-search">
-  <img src="https://img.shields.io/badge/Quick%20Search%20AI-Open%20Source-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Quick Search" />
+  <img src="https://img.shields.io/badge/Quick%20Search%20AI-Showcase%20Repo-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Quick Search Repo" />
 </a>
 <a href="https://spamfree.ai">
   <img src="https://img.shields.io/badge/SpamFree.ai-Pre--Seed-38BDF8?style=for-the-badge&logo=openai&logoColor=white" alt="SpamFree AI" />
@@ -39,7 +39,7 @@
 | :--- | :--- | :--- |
 | **Execution Velocity** | Shipped production desktop software with low-level OS hooks & live store distribution | [Microsoft Store Listing](https://apps.microsoft.com/detail/9PMPT8423QSC) |
 | **Search Engine Scale** | Indexes & queries **20,000,000+ local files** in **0.02s** without memory leaks | [Files Go Architecture](https://filesgo.org) |
-| **Open Source Code** | System-wide `Tab+Q` voice assistant with hardware fingerprinting & native overlay | [github.com/viswasakthi3/quick-search](https://github.com/viswasakthi3/quick-search) |
+| **Production Voice AI** | System-wide `Tab+Q` voice assistant with hardware fingerprinting & native overlay | [github.com/viswasakthi3/quick-search](https://github.com/viswasakthi3/quick-search) |
 | **Modern Web Stack** | Next.js 15, React 19, TanStack Start (SSR), Bun, Tailwind CSS v4, Docker | [github.com/viswasakthi3/tubelight-landing](https://github.com/viswasakthi3/tubelight-landing) |
 
 ---
@@ -52,7 +52,7 @@
     <td width="60%" valign="top">
       <h3>
         <a href="https://github.com/viswasakthi3/quick-search">01. Quick Search AI</a>
-        <img src="https://img.shields.io/badge/Open%20Source-Codebase-22c55e?style=flat-square" />
+        <img src="https://img.shields.io/badge/Product%20Showcase-Desktop%20AI-10B981?style=flat-square" />
       </h3>
       <p><b>Global OS-wide voice AI assistant with sub-second answers and hardware-bound identity.</b></p>
       <ul>
@@ -62,7 +62,7 @@
         <li><b>23 Automated E2E Checks:</b> Comprehensive Electron assertion suites covering shortcuts, offline recovery, and MSIX packaging.</li>
       </ul>
       <p>
-        <a href="https://github.com/viswasakthi3/quick-search"><b>Inspect Source Code &rarr;</b></a>
+        <a href="https://github.com/viswasakthi3/quick-search"><b>Inspect GitHub Showcase &rarr;</b></a>
       </p>
     </td>
     <td width="40%" valign="top">
@@ -73,7 +73,7 @@
         <li><code>MSIX Packaging</code></li>
         <li><code>Automated E2E Testing</code></li>
       </ul>
-      <p><b>Status:</b> Production Codebase</p>
+      <p><b>Status:</b> Live Production Binary</p>
     </td>
   </tr>
 
@@ -236,7 +236,7 @@ I am actively building, shipping, and discussing early-stage venture backing for
 * 📩 **Email:** [viswasakthi.offl@gmail.com](mailto:viswasakthi.offl@gmail.com?subject=Investor%20%2F%20Collaboration%20Inquiry%20from%20GitHub)
 * 🌐 **Files Go:** [filesgo.org](https://filesgo.org)
 * 📦 **Microsoft Store:** [Download App](https://apps.microsoft.com/detail/9PMPT8423QSC)
-* 💻 **Quick Search AI:** [View GitHub Repo](https://github.com/viswasakthi3/quick-search)
+* 💻 **Quick Search AI:** [Inspect GitHub Showcase](https://github.com/viswasakthi3/quick-search)
 * 💡 **SpamFree:** [spamfree.ai](https://spamfree.ai)
 * 📍 **Location:** India · Global First
 
